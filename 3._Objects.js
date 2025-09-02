@@ -34,6 +34,9 @@ Object.assign(stackOverflow, { problem: "StackOverflow answer here" });
 Object.assign(stackOverflow, { isAllowed: true });
 console.log(stackOverflow);
 
+stackOverflow.isAllowed = false;
+console.log(stackOverflow);
+
 // --------------------------------------
 // Exercise 4 - Remove a property
 
